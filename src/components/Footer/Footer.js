@@ -39,10 +39,6 @@ export const TextGroup = styled.div`
 export const ContactGroup = styled.div`
     margin-left: auto;
     display: flex;
-    -webkit-gap: 2rem;
-    -moz-gap: 2rem;
-    -o-gap: 2rem;
-    -ms-gap: 2rem;
     gap: 2rem;
     margin-bottom: 6rem;
 
@@ -75,15 +71,11 @@ export const ContactItem = styled(Link)`
 
 export const SocialGroup = styled.div`
     display: flex;
-    -webkit-gap: 2rem;
-    -moz-gap: 2rem;
-    -o-gap: 2rem;
-    -ms-gap: 2rem;
-    gap: 2rem;
     margin-bottom: 2rem;
 `
 
 export const SocialIcon = styled.a`
+    margin-right: 2rem;
     color: ${({ theme }) => theme.orange};
     font-size: 2rem;
     transition: 0.3s;
